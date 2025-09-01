@@ -55,6 +55,19 @@ git clone https://github.com/ImTani/godot-property-selection-window.git
 ## Implementation
 
 ### Basic Usage
+Export a PropertySelectorNode with a hint.
+This is actually a Resource that contains a NodePath to an object and a list
+of properties that is selected for it.
+
+Exporting this object 
+```gdscript
+@export var property_selector : PropertySelectorNode
+```
+
+To select properties from the Inspector, click the blue button labeled "Property Menu"
+![Inspector Integration](docs/media/property-selector-node-inspector.png)
+
+### Custom Plugin Implementation
 
 ```gdscript
 var property_selector = PropertySelectionWindow.new()
