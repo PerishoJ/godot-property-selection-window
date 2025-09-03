@@ -35,11 +35,11 @@ func _open_prop_select_window():
     current_prop_list, # initially selected properties
     false, # show hidden properties
     -1, # filter type
-    propertry_selection_callback) # selection callback
+    property_selection_callback) # selection callback
   else:
     push_error("Could not find Property Selector Object being edited")
     
-func propertry_selection_callback(selected_properties : Array[String]):
+func property_selection_callback(selected_properties : Array[String]):
   var selector = ( root.get(prop_name)  as PropertySelectorNode)
   selector.properties_list = selected_properties
   emit_changed(get_edited_property(), selector)
