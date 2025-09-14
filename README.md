@@ -1,4 +1,4 @@
-# Property Selection Window
+# Property Selector Object
 
 <div align="center>
 
