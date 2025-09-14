@@ -40,10 +40,10 @@ class custom_property_selector_plugin extends EditorInspectorPlugin:
   
 
   func _parse_begin(object: Object) -> void:
-    if _is_property_a_PropertySelection(object):
+    if _does_object_have_a_PropertySelection_property(object):
       property_editor_root = object
 
-  func _is_property_a_PropertySelection(object : Object):
+  func _does_object_have_a_PropertySelection_property(object : Object):
     # Get the list of all properties for this object
     var property_list := object.get_property_list()
     for prop in property_list:
