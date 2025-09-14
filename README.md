@@ -55,9 +55,9 @@ git clone https://github.com/ImTani/godot-property-selection-window.git
 ## Implementation
 
 ### Basic Usage
-Export a PropertySelectorNode with a hint.
-This is actually a Resource that contains a NodePath to an object and a list
-of properties that is selected for it.
+Export a property with a type of PropertySelectorNode as the hint.
+This is a Resource that contains a NodePath to an object and a list
+of manually selected properties.
 
 Exporting this object 
 ```gdscript
