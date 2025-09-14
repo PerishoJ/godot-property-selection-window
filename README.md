@@ -41,7 +41,11 @@ Exporting this object
 ```
 
 To select properties from the Inspector, click the blue button labeled "Property Menu"
+
 ![Inspector Integration](docs/media/property-selector-node-inspector.png)
+
+The Property Selection Window will pop-up, and you can choose which subset of properties you would like.
+
 ![Property Selection Window Preview](docs/media/window-preview.png)
 
 ## Contributing
