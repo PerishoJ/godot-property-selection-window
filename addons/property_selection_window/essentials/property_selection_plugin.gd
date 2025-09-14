@@ -20,7 +20,7 @@ class custom_property_selector_plugin extends EditorInspectorPlugin:
   var property_editor_root
   
   func _can_handle(object):
-    return  object is PropertySelection
+    return  object is PropertySelection || object is Node
     
   func _parse_property(object, type, path, hint, hint_text, usage, wide):
     if  object is PropertySelection and path == "props":
