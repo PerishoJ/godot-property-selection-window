@@ -66,7 +66,7 @@ ImTani, who developed the "property selection window" plugin
 
 This tool is a fork of the original "property selection window" plugin, whose source code can be found here:
 
-[github.com/ImTani/godot-property-selection-window](github.com/ImTani/godot-property-selection-window)
+[github.com/ImTani/godot-property-selection-window](https://github.com/ImTani/godot-property-selection-window)
 
 ---
 
